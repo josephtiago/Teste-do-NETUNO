@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1A7FBD;
+}
+
+header {
+    margin: 1.0% 0% 0% 0%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    scale:  60%;
+}
+header nav {
+    padding-left: 17vh;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    color: #fff;
+    gap: 45px;
+    font-size: 2.8vh;
+    align-items: center;
+}
+
+header ul li {
+    cursor: pointer;
+}
+
+header button {
+    cursor: pointer;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    width: 20vh;
+    height: 6vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+}
+#linha1 {
+    background: linear-gradient(to right, transparent 5%, #fff, 33%, #fff 60%, transparent 95%);
+    height: 0.1vh;
+}
+main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+main img {
+    scale: 95%;
+    position: relative;
+    right: 40vh;
+    bottom: 4vh;
+}
+
+#forms-geral {
+    width: 12vh;
+    height: 20vh;
+    position: relative;
+    right: 62vh;
+    top: 23vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#form1 {
+    background-color: #fff;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vh 2vh 0vh 0vh;
+    padding-left: 5vh; 
+}
+
+#form1 h2 {
+    margin-left: 1vh;
+    color: #00000068;
+}
+
+#form1 p {
+    color: #1A7FBD;
+} 
+
+#form1 input {
+    width: 45vh;
+    height: 5vh;
+    border-radius: 1vh;
+    border: 1px solid #0000006c  ;
+    position: relative;
+    right: 3vh;
+    margin-bottom: 1.5vh;
+    padding-left: 5vh;
+}
+
+#form1 select {
+    width: 50.5vh;
+    height: 5.5vh;
+    border-radius: 1vh;
+    border: 1px solid #0000006c  ;
+    position: relative;
+    right: 3vh;
+    margin-bottom: 2.5vh;   
+    padding-left: 4vh;
+
+}
+
+#name {
+    background-image: url(../Assets_Netuno/icones/user.png);
+    background-repeat: no-repeat;
+    background-size: 4%;
+    background-position-y: center;
+    background-position: 10px;
+}
+
+#email {
+    background-image: url(../Assets_Netuno/icones/mail.png);
+    background-repeat: no-repeat;
+    background-size: 4%;
+    background-position-y: center;
+    background-position: 10px;
+}
+
+#estado {
+    background-image: url(../Assets_Netuno/icones/state.png);
+    background-repeat: no-repeat;
+    background-size: 4%;
+    background-position-y: center;
+    background-position: 10px;
+}
+
+#form2 {
+    display: flex;
+    flex-direction: column;
+    width: 55vh;  
+    color: white; 
+}
+
+#form2 p {
+    color: white;
+    padding-left: 2vh; 
+}
+
+#form2 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.4vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+}
+
+#form2 input[type="checkbox"] {
+    appearance: none;
+    background-color: none;
+    width: 15px;
+    height: 14px;
+    border: 1px solid #ffffff78;
+    position: relative;
+}
+
+#form2 input[type="checkbox"]:checked {
+    background-color: #fff;
+    background-color: none;
+    
+}
+
+#form3 {
+    background-color: #fff;
+    width: 50vh;
+    border-radius: 0vh 0vh 2vh 2vh;
+    padding-left: 5vh;  
+    margin-top: 5vh; /* Adicionado para separar do formulário anterior */
+    position: absolute;
+    border: #1A7FBD;
+    border-bottom: 40px solid #1A7FBD;
+}
+#form3::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius: 0 0 2vh 2vh;
+    background-color: #1a7fbd;
+    z-index: -1;
+}
+
+#form3 p {
+    color: #1A7FBD;
+}
+
+
+#form3 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+}
+
+#form3 input[type="radio"] {
+    appearance: none;
+    background-color: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #0000006c;
+    border-radius: 50%; /* Torna os botões redondos */
+    margin-right: 5px; /* Adiciona espaço entre os botões */
+    
+}
+
+#form3 input[type="radio"]:checked {
+    background-color: #1A7FBD;
+}
+
+#form3 label {
+    cursor: pointer;
+}
+
+.linha-cinza{
+    width: 99.5%;
+    height: 1px;
+    background-color: #CCCCCC;
+    margin: 2vh 0;
+}
+
+#form3 p.obrigatórios{
+    color:#1A7FBD;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+#button{
+    background-color: #1A7FBD;
+    color: #fff;
+    border-radius: 2vh;
+    padding: 4vh 8vh;
+    margin-top: 10vh;
+    border: none;
+    cursor: pointer;
+}
+
+#form3-p1{
+    color: #000;
+}
+
+.privacidade{
+    color: #1A7FBD;
+}
+
+.políticas{
+    color: #1A7FBD;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    
