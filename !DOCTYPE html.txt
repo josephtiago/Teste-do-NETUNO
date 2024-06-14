@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <style>
+        .move-down{
+    position: relative;
+    top:500px;   
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;                         
+    }
+    </style>
+    <header>
+        <img src="./Assets_Netuno/assets/logo.png" alt="">
+        <nav>
+            <ul>
+                <li>O Projeto</li>
+                <li>O Problema</li>
+                <li>Sua Jornada</li>
+                <li>Objetivos</li>
+                <button>Processo Seletivo</button>
+            </ul>
+        </nav>
+    </header>
+    <div id="linha1"></div>
+    <main>
+        <div class="image-container">
+            <img src="./Assets_Netuno/bannertopo.png" alt="primeira imagem">
+            <img src="Assets_Netuno/dev.png" alt="segunda imagem">
+        </div>
+        <div id="forms-geral">
+            <form action="" id="form1">
+                <h2>Formulário de Cadastro</h2>
+                <p>Preencha seus dados</p>
+                <input type="text" placeholder="Nome Completo*" id="name">
+                <input type="text" placeholder="E-mail*" id="email">
+                <select name="Estado" id="estado">
+                    <option value="">Estado*</option>
+                    <option value="">Acre</option>
+                    <option value="">Alagoas</option>
+                    <option value="">Amapá</option>
+                    <option value="">Amazonas</option>
+                    <option value="">Bahia</option>
+                    <option value="">Ceará</option>
+                    <option value="">Distrito Federal</option>
+                    <option value="">Espírito Santo</option>
+                    <option value="">Goiás</option>
+                    <option value="">Maranhão</option>
+                    <option value="">Mato Grosso</option>
+                    <option value="">Mato Grosso do Sul</option>
+                    <option value="">Minas Gerais</option>
+                    <option value="">Pará</option>
+                    <option value="">Paraíba</option>
+                    <option value="">Paraná</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Piauí</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Rio Grande do Norte</option>
+                    <option value="">Rio Grande do Sul	</option>
+                    <option value="">Rondônia</option>
+                    <option value="">Roraima</option>
+                    <option value="">Santa Catarina</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Sergipe</option>
+                    <option value="">Tocantins</option>
+                </select>
+            </form>
+            <form action="" id="form2">
+                <p>Conhecimentode programação*</p>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">HTML</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">CSS</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">JavaScript</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">PHP</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">.NET</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">VueJs</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">ReactJS</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">React Native</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Node</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Python</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Flutter</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Outras</label>
+                </div>
+            </form>
+            <form action="" id="form3">
+                <p>Já trabalhou com desenvolvimeto?</p>
+                <form action="">
+                    <input type="checkbox" name="Não" id="">
+                    <label for="">Não</label>
+                    <input type="checkbox" name="Sim" id="">
+                    <label for="">Sim</label>
+                    <div class="linha-cinza"></div>
+                    <p class="(*) Campos obrigatórios">(*) Campos obrigatórios</p>
+                <div id="button-container">
+                    <button type="submit" id="button">Enviar</button>
+                </div>
+                <p1 class="privacidades">Ao clicar em enviar, você concorda comtodos os termos de uso de dados descritos em <span class="políticas"> políticas de privacidades</span></p1>
+            </form>
+                <h1 class="move-down" >O Problema </h1>
+             <p class=" move-down" >Com o "novo normal " causado pela pandemia dos últimos anos, mais empresas no mundo todo têm aberto  opurtunidade no modelo Home Office.</p>
+             <p class="move-down" >Alinhado a depreciação da moeda local, temos um alto índice de profissionais migrando para trabalhos em outros países.</p>
+        </div>
+    </main>
+</body>
+ 
